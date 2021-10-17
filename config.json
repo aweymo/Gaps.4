@@ -20,7 +20,7 @@
   "features": {
     "search": false,
     "groupSelectorAttribute": "Modularity Class",
-    "hoverBehavior": "default"
+    "hoverBehavior": "dim"
   },
   "informationPanel": {
     "groupByEdgeDirection": false,
@@ -29,7 +29,7 @@
   "sigma": {
     "drawingProperties": {
       "defaultEdgeType": "curve",
-      "defaultHoverLabelBGColor": "#A5A4A4",
+      "defaultHoverLabelBGColor": "#000000",
       "defaultLabelBGColor": "#000000",
       "activeFontStyle": "bold",
       "defaultLabelColor": "#000000",
@@ -43,12 +43,12 @@
     "graphProperties": {
       "maxEdgeSize": 0.5,
       "minEdgeSize": 0.2,
-      "minNodeSize": 10,
+      "minNodeSize": 8,
       "maxNodeSize": 30
     },
     "mouseProperties": {
       "maxRatio": 25,
-      "minRatio": 1
+      "minRatio": 1.25
     }
   }
 }
